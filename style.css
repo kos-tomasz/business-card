@@ -5,3 +5,65 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
+
+body{
+    background: #2C2141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 624px;
+    background: #F8F8F8;
+    margin: 16px;
+    border-radius: 16px;
+}
+
+.person{
+    padding: 32px;
+    display: flex;
+}
+
+.person__description{
+    line-height: 22px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.person__description--margin-bottom{
+    padding-bottom: 22px;
+}
+
+.person__info{
+    margin-bottom: 24px;
+}
+
+.person__link{
+    text-decoration: none;
+    color: #E20613;
+}
+
+.person__name{
+    margin:0;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.person__picture{
+    margin-right: 32px;
+}
+
+.person__position{
+    margin: 0;
+    font-size: 18px;
+    font-style: italic;
+    color:#545454;
+}
+
+.special{
+    color: #ED6D05;
+    font-weight: normal;
+}
