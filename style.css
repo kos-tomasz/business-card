@@ -57,6 +57,8 @@ body {
 
 .person__picture {
   margin-right: 32px;
+  width: 148px;
+  border-radius: 50%;
 }
 
 .person__position {
